@@ -11,8 +11,6 @@ You have three tasks, each of which will deal with the balance and its interest 
 
 ## 1. Calculate the interest rate
 
-Note: We communicate the relationship of the class or module to what is being invoked, such as `Math::PI` referencing a constant, or `Class::new` to reference the class method new.  You will encounter this in the Ruby documentation, and in the mailing lists and other support areas, so we will use them here.
-
 Implement the `SavingsAccount::interest_rate` method to calculate the interest rate based on the specified balance:
 
 ```ruby
