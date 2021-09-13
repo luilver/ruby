@@ -11,7 +11,7 @@ You have three tasks, each of which will deal with the balance and its interest 
 
 ## 1. Calculate the interest rate
 
-Implement the `SavingsAccount::interest_rate` method to calculate the interest rate based on the specified balance:
+Implement the `SavingsAccount.interest_rate` method to calculate the interest rate based on the specified balance:
 
 ```ruby
 SavingsAccount.interest_rate(200.75)
@@ -22,7 +22,7 @@ Note that the value returned is an instance of `Float`.
 
 ## 2. Calculate the annual balance update
 
-Implement the `SavingsAccount::annual_balance_update` method to calculate the annual balance update, taking into account the interest rate:
+Implement the `SavingsAccount.annual_balance_update` method to calculate the annual balance update, taking into account the interest rate:
 
 ```ruby
 SavingsAccount.annual_balance_update(200.75)
@@ -33,7 +33,7 @@ Note that the value returned is an instance of `Float`.
 
 ## 3. Calculate the years before reaching the desired balance
 
-Implement the `SavingsAccount::years_before_desired_balance` method to calculate the minimum number of years required to reach the desired balance:
+Implement the `SavingsAccount.years_before_desired_balance` method to calculate the minimum number of years required to reach the desired balance:
 
 ```ruby
 SavingsAccount.years_before_desired_balance(200.75, 214.88)
